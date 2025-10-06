@@ -3,33 +3,31 @@
 ### CREATE
 POST {{URL}}
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
+Authorization:Bearer 'token gerado'
 
 {
     "valor": 4,
     "sensorid": 1
 }
 
-### Obter todas as pessoas
+### Obter todas as leituras
 GET {{URL}}
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
+Authorization:Bearer 'token gerado'
 
+### Obter uma leitura
+GET {{URL}}/id'
+Authorization:Bearer 'token gerado'
 
-### Obter um gateway
-GET {{URL}}/2
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
-
-
-### Atualizar um gateway
-PUT {{URL}}/2
+### Atualizar uma leitura
+PUT {{URL}}/'id'
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
+Authorization:Bearer 'token gerado'
 
 {
     "valor": 23,
     "sensorid": 2
 }
 
-### Deletar uma pessoa
+### Deletar uma leitura
 DELETE {{URL}}/2
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
+Authorization:Bearer 'token gerado'
