@@ -10,15 +10,15 @@ Authorization:Bearer 'token gerado'
     "dispositivoid": "1"
 }
 
-### Obter todas as pessoas
+### Obter todos os atuadores
 GET {{URL}}
 Authorization:Bearer 'token gerado'
 
-### Obter um gateway
+### Obter um atuador
 GET {{URL}}/'id'
 Authorization:Bearer 'token gerado'
 
-### Atualizar um gateway
+### Atualizar um atuador
 PUT {{URL}}/'id'
 Content-Type: application/json
 Authorization:Bearer 'token gerado'
@@ -28,6 +28,7 @@ Authorization:Bearer 'token gerado'
     "dispositivoid": 2
 }
 
-### Deletar uma pessoa
+### Deletar um atuador
 DELETE {{URL}}/'id'
 Authorization:Bearer 'token gerado'
+
