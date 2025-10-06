@@ -3,7 +3,7 @@
 ### CREATE
 POST {{URL}}
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VySWQiOiIxIiwidXNlcm5hbWUiOiJhYXNAaHRtYWlsIiwiaWF0IjoxNzE3MjU2NjkxLCJleHAiOjE3MTcyOTI2OTEsImlzcyI6IlVURlBSIn0.-_JKzp_g4kgRN6j1xIQdBFqppULGJRx0REX543r26Rw
+Authorization:Bearer 'token gerado'
 
 {
     "nome": "teste",
@@ -12,18 +12,16 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aG
 
 ### Obter todas as pessoas
 GET {{URL}}
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VySWQiOiIxIiwidXNlcm5hbWUiOiJ0ZXN0ZUBob3RtYWlsLmNvbSIsImlhdCI6MTcxNzQzMjY0NSwiZXhwIjoxNzE3NDY4NjQ1LCJpc3MiOiJVVEZQUiJ9._6KraruZ5BsCK8FYEgW6nyfQk2zIHeFTDAXUrsBvNW8
-
+Authorization:Bearer 'token gerado'
 
 ### Obter um gateway
-GET {{URL}}/1
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
-
+GET {{URL}}/'id'
+Authorization:Bearer 'token gerado'
 
 ### Atualizar um gateway
-PUT {{URL}}/1
+PUT {{URL}}/'id'
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
+Authorization:Bearer 'token gerado'
 
 {
     "nome": "Anas",
@@ -31,5 +29,5 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aG
 }
 
 ### Deletar uma pessoa
-DELETE {{URL}}/1
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUEkgYXV0aGVudGljYXRpb24iLCJ1c2VybmFtZSI6ImFhQGh0bWFpbCIsImlhdCI6MTcxNjgwODM5NSwiZXhwIjoxNzE2ODQ0Mzk1LCJpc3MiOiJVVEZQUiJ9.06JB-OLYcb3Qlynn0Yi4N0Kd8zEoN13ODcJUKchsAjg
+DELETE {{URL}}/'id'
+Authorization:Bearer 'token gerado'
