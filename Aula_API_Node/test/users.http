@@ -14,9 +14,9 @@ Authorization:
 
 ###GetAll
 GET {{url}}
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmI4YzIwYzhjZjExZTM0ZmViNzc2YSIsImlhdCI6MTcxNDEzMjYyOCwiZXhwIjoxNzE0MTM2MjI4fQ.CsTh9ljcn9XuOumrywdSCPiz2bVmca0tttooLqVdqTM
+Authorization: 'token gerado'
 
 
 ###GetID
-GET {{url}}/6628f395c862a481ef874a9d
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MmI4YzIwYzhjZjExZTM0ZmViNzc2YSIsImlhdCI6MTcxNDEzMjYyOCwiZXhwIjoxNzE0MTM2MjI4fQ.CsTh9ljcn9XuOumrywdSCPiz2bVmca0tttooLqVdqTM
+GET {{url}}/'id'
+Authorization: 'token gerado'
